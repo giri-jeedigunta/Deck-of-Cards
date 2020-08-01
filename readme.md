@@ -6,3 +6,5 @@ A simple Go basics playground / learners project.
  - Custom data type deck
  - looping 
  - Functions with multiple returns
+
+ ``` go run main.go deck.go ```
