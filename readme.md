@@ -5,6 +5,6 @@
 A simple Go basics playground / learners project. 
 
  - I'm generating a deck of cards and added some reciever / custom functions like shuffle, print etc,. 
- - Custom data type deck
- - looping 
+ - Custom data type: deck 
  - Functions with multiple returns
+ - Looping through slice of strings
