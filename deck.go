@@ -31,7 +31,8 @@ func newDeck() deck {
 }
 
 // reciever on a fn: 
-// EG: cards.print()
+// This function recieved d which is a type deck
+// EG: cards.print() => cards here is of type deck and will be recieved by print fn
 func (d deck) print() {
 	for i, card := range d {
 		fmt.Println(i, card)
@@ -41,6 +42,7 @@ func (d deck) print() {
 // func returning multiples ... no reciever.. passing cards as an arg
 // EG: hand, remainingCards := deal(cards, 5)
 func deal(d deck, handSize int) (deck, deck) {
+	// :handleSize - range selectors generates subsets of the slice 
 	return d[:handSize], d[handSize:]
 }
 

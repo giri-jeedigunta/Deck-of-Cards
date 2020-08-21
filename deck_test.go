@@ -8,6 +8,7 @@ import (
 func TestNewDeck(t *testing.T) {
 	d := newDeck();
 
+	// Inspite of writing 3 different tests when this test is executed the test gets executed as 1.
 	if len(d) != 52 {
 		t.Errorf("Expected deck length of 52 but got %v", len(d))
 	}
